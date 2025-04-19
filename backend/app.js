@@ -8,7 +8,7 @@ const cors=require("cors");
 const app=express();
 
 mongoose
-.connect("mongodb+srv://parsharambonala666:vxyo54z9EjKOAO6B@ram-cluster.genze7w.mongodb.net/expense-tracker?retryWrites=true&w=majority&appName=ram-cluster")
+.connect("MongoDB Connection String")
 .then(()=>{console.log("DB connected successfully")})
 .catch((e)=>console.log(e.message));
 
